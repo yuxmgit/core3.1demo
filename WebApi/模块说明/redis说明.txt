@@ -1,0 +1,10 @@
+﻿1、项目从Nuget中添加引用 Microsoft.Extensions.Caching.Redis
+
+2、创建RedisCacheHelper.cs 帮助类
+
+appsettings.json中配置redis数据连接
+
+ "RedisConnectionStrings": { //redis连接
+    "Connection": "127.0.0.1:6379,abortConnect=false",
+    "InstanceName": "RextecSOARedis"
+  }
